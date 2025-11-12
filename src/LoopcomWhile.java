@@ -9,9 +9,7 @@ public class LoopcomWhile {
             System.out.println(valor);
             valor++; // incrementa o valor a cada iteração
 
-
-            //
-
+            // correcao
             //
         }
     }
