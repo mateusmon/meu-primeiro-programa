@@ -8,6 +8,11 @@ public class LoopcomWhile {
         while (valor <= contador) {
             System.out.println(valor);
             valor++; // incrementa o valor a cada iteração
+
+
+            //
+
+            //
         }
     }
 }
