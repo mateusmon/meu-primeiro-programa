@@ -1,22 +1,25 @@
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
+
+
+
 public class Main {
-    public class LoopcomWhile {
-        public static void main(String[] args) {
 
-            int contador = 100;
-            int valor = 1;
-            while (valor <= contador) {
-                System.out.println(valor);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o primeiro valor: ");
 
+        int valor = scanner.nextInt();
 
-            }
-
-
+        for (int contador = 1; contador <= valor; contador++) {
+            System.out.println(contador);
         }
+        scanner.close();
 
     }
-
 }
+
+
+
 
